@@ -1,12 +1,11 @@
 using Avalonia.Controls;
 
-namespace CyberEagle.UI.Views
+namespace CyberEagle.UI.Views;
+
+public partial class MainView : UserControl
 {
-    public partial class MainView : UserControl
+    public MainView()
     {
-        public MainView()
-        {
-            InitializeComponent();
-        }
+        InitializeComponent();
     }
 }
