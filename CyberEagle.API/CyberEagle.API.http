@@ -1,0 +1,6 @@
+@CyberEagle.API_HostAddress = http://localhost:5299
+
+GET {{CyberEagle.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
